@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Book_Broker.SignUpPage">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="{StaticResource Layer2}">
+            <Label Text="Sing Up Page!" TextColor="{StaticResource MainText}"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Entry x:Name="UsernameEntry" Placeholder="Username..." TextColor="{StaticResource MainText}" PlaceholderColor="{StaticResource SubText}"/>
+            <Entry x:Name="PasswordEntry" Placeholder="Password..." IsPassword="True" TextColor="{StaticResource MainText}" PlaceholderColor="{StaticResource SubText}"/>
+            <Entry x:Name="ConfirmPasswordEntry" Placeholder="Confirm Password..." IsPassword="True" TextColor="{StaticResource MainText}" PlaceholderColor="{StaticResource SubText}"/>
+            <Button x:Name="SingUpButton" Text="Sign Up" Clicked="SingUpButton_Clicked" TextColor="{StaticResource MainText}" BackgroundColor="{StaticResource Layer4}"/>
+            <Button x:Name="BackButton" Text="Back" Clicked="BackButton_Clicked" TextColor="{StaticResource MainText}" BackgroundColor="{StaticResource Layer4}"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

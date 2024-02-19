@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Book_Broker.App">
+    <Application.Resources>
+        <ResourceDictionary>
+            <!--Background Colours-->
+            <Color x:Key="Layer1">Black</Color>
+            <Color x:Key="Layer2">#222222</Color>
+            <Color x:Key="Layer3">#444444</Color>
+            <Color x:Key="Layer4">#666666</Color>
+            
+            <!--Text Colours-->
+            <Color x:Key="MainText">White</Color>
+            <Color x:Key="SubText">#BBBBBB</Color>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

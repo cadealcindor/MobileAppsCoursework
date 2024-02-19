@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Book_Broker.EditPage">
+    <ContentPage.Content>
+        <Grid BackgroundColor="Black">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            
+            <AbsoluteLayout BackgroundColor="{StaticResource Layer1}" Grid.Row="0" Grid.Column="0">
+                <Label x:Name="UsernameDisplay" Text="Guest" TextColor="{StaticResource MainText}" AbsoluteLayout.LayoutFlags="YProportional" AbsoluteLayout.LayoutBounds="0,0.5"/>
+                <Button x:Name="LogoutButton" Text="Logout" Clicked="LogoutButton_Clicked" TextColor="{StaticResource MainText}" BackgroundColor="{StaticResource Layer4}" AbsoluteLayout.LayoutFlags="PositionProportional" AbsoluteLayout.LayoutBounds="0.99,0.5,80,35"/>
+            </AbsoluteLayout>
+            
+            <StackLayout BackgroundColor="{StaticResource Layer2}" Grid.Row="1">
+                <Label Text="Edit Page" TextColor="{StaticResource MainText}"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+
+                <CarouselView x:Name="ImageCarouselView" BackgroundColor="{StaticResource Layer3}" ItemsSource="{Binding ImagesSourceList}">
+                    <CarouselView.ItemTemplate>
+                        <DataTemplate>
+                            <ContentView>
+                                <Frame HasShadow="True" BackgroundColor="{StaticResource Layer3}" >
+                                    <AbsoluteLayout>
+                                        <Image x:Name="CVCoverImage" Scale="1" AbsoluteLayout.LayoutFlags="PositionProportional" AbsoluteLayout.LayoutBounds="0.5,0" Aspect="AspectFill" Source="{Binding imageSource}"/>
+                                    </AbsoluteLayout>
+                                </Frame>
+                            </ContentView>
+                        </DataTemplate>
+                    </CarouselView.ItemTemplate>
+                </CarouselView>
+                
+                <Label Text="ID" TextColor="{StaticResource SubText}"/>
+                <Entry x:Name="IDEntry"  Text="{Binding ID}" TextColor="{StaticResource SubText}" IsReadOnly="True"/>
+                <Label Text="Title" TextColor="{StaticResource SubText}"/>
+                <Entry x:Name="TitleEntry" Text="{Binding Title}" TextColor="{StaticResource MainText}"/>
+                <Label Text="Author" TextColor="{StaticResource SubText}"/>
+                <Entry x:Name="AuthorEntry" Text="{Binding Author}" TextColor="{StaticResource MainText}"/>
+                <Label Text="Price" TextColor="{StaticResource SubText}"/>
+                <Entry x:Name="PriceEntry" Text="{Binding Price}" TextColor="{StaticResource MainText}"/>
+
+                <Button x:Name="SaveButton" Text="Save" Clicked="SaveButton_Clicked" TextColor="{StaticResource MainText}" BackgroundColor="{StaticResource Layer4}"/>
+                <Button x:Name="DeleteButton" Text="Delete" Clicked="DeleteButton_Clicked" TextColor="{StaticResource MainText}" BackgroundColor="{StaticResource Layer4}"/>
+                <Button x:Name="CancelButton" Text="Cancel" Clicked="CancelButton_Clicked" TextColor="{StaticResource MainText}" BackgroundColor="{StaticResource Layer4}"/>
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

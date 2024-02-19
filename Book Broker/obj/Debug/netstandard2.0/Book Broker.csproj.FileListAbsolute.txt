@@ -1,0 +1,44 @@
+H:\intro to mobile apps\Book Broker\Book Broker\Book Broker\bin\Debug\netstandard2.0\Book Broker.deps.json
+H:\intro to mobile apps\Book Broker\Book Broker\Book Broker\bin\Debug\netstandard2.0\Book Broker.dll
+H:\intro to mobile apps\Book Broker\Book Broker\Book Broker\bin\Debug\netstandard2.0\Book Broker.pdb
+H:\intro to mobile apps\Book Broker\Book Broker\Book Broker\obj\Debug\netstandard2.0\Book Broker.csproj.AssemblyReference.cache
+H:\intro to mobile apps\Book Broker\Book Broker\Book Broker\obj\Debug\netstandard2.0\Book Broker.GeneratedMSBuildEditorConfig.editorconfig
+H:\intro to mobile apps\Book Broker\Book Broker\Book Broker\obj\Debug\netstandard2.0\AddListingPage.xaml.g.cs
+H:\intro to mobile apps\Book Broker\Book Broker\Book Broker\obj\Debug\netstandard2.0\App.xaml.g.cs
+H:\intro to mobile apps\Book Broker\Book Broker\Book Broker\obj\Debug\netstandard2.0\EditPage.xaml.g.cs
+H:\intro to mobile apps\Book Broker\Book Broker\Book Broker\obj\Debug\netstandard2.0\ListingDetailsPage.xaml.g.cs
+H:\intro to mobile apps\Book Broker\Book Broker\Book Broker\obj\Debug\netstandard2.0\LoginPage.xaml.g.cs
+H:\intro to mobile apps\Book Broker\Book Broker\Book Broker\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+H:\intro to mobile apps\Book Broker\Book Broker\Book Broker\obj\Debug\netstandard2.0\MyListingsPage.xaml.g.cs
+H:\intro to mobile apps\Book Broker\Book Broker\Book Broker\obj\Debug\netstandard2.0\SignUpPage.xaml.g.cs
+H:\intro to mobile apps\Book Broker\Book Broker\Book Broker\obj\Debug\netstandard2.0\StorePage.xaml.g.cs
+H:\intro to mobile apps\Book Broker\Book Broker\Book Broker\obj\Debug\netstandard2.0\Book Broker.AssemblyInfoInputs.cache
+H:\intro to mobile apps\Book Broker\Book Broker\Book Broker\obj\Debug\netstandard2.0\Book Broker.AssemblyInfo.cs
+H:\intro to mobile apps\Book Broker\Book Broker\Book Broker\obj\Debug\netstandard2.0\Book Broker.csproj.CoreCompileInputs.cache
+H:\intro to mobile apps\Book Broker\Book Broker\Book Broker\obj\Debug\netstandard2.0\XamlC.stamp
+H:\intro to mobile apps\Book Broker\Book Broker\Book Broker\obj\Debug\netstandard2.0\Book Broker.dll
+H:\intro to mobile apps\Book Broker\Book Broker\Book Broker\obj\Debug\netstandard2.0\refint\Book Broker.dll
+H:\intro to mobile apps\Book Broker\Book Broker\Book Broker\obj\Debug\netstandard2.0\Book Broker.pdb
+H:\intro to mobile apps\Book Broker\Book Broker\Book Broker\obj\Debug\netstandard2.0\ref\Book Broker.dll
+G:\intro to mobile apps\Book Broker\Book Broker\Book Broker\obj\Debug\netstandard2.0\Book Broker.csproj.AssemblyReference.cache
+G:\intro to mobile apps\Book Broker\Book Broker\Book Broker\obj\Debug\netstandard2.0\Book Broker.GeneratedMSBuildEditorConfig.editorconfig
+G:\intro to mobile apps\Book Broker\Book Broker\Book Broker\obj\Debug\netstandard2.0\AddListingPage.xaml.g.cs
+G:\intro to mobile apps\Book Broker\Book Broker\Book Broker\obj\Debug\netstandard2.0\App.xaml.g.cs
+G:\intro to mobile apps\Book Broker\Book Broker\Book Broker\obj\Debug\netstandard2.0\EditPage.xaml.g.cs
+G:\intro to mobile apps\Book Broker\Book Broker\Book Broker\obj\Debug\netstandard2.0\ListingDetailsPage.xaml.g.cs
+G:\intro to mobile apps\Book Broker\Book Broker\Book Broker\obj\Debug\netstandard2.0\LoginPage.xaml.g.cs
+G:\intro to mobile apps\Book Broker\Book Broker\Book Broker\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+G:\intro to mobile apps\Book Broker\Book Broker\Book Broker\obj\Debug\netstandard2.0\MyListingsPage.xaml.g.cs
+G:\intro to mobile apps\Book Broker\Book Broker\Book Broker\obj\Debug\netstandard2.0\SignUpPage.xaml.g.cs
+G:\intro to mobile apps\Book Broker\Book Broker\Book Broker\obj\Debug\netstandard2.0\StorePage.xaml.g.cs
+G:\intro to mobile apps\Book Broker\Book Broker\Book Broker\obj\Debug\netstandard2.0\Book Broker.AssemblyInfoInputs.cache
+G:\intro to mobile apps\Book Broker\Book Broker\Book Broker\obj\Debug\netstandard2.0\Book Broker.AssemblyInfo.cs
+G:\intro to mobile apps\Book Broker\Book Broker\Book Broker\obj\Debug\netstandard2.0\Book Broker.csproj.CoreCompileInputs.cache
+G:\intro to mobile apps\Book Broker\Book Broker\Book Broker\obj\Debug\netstandard2.0\Book Broker.dll
+G:\intro to mobile apps\Book Broker\Book Broker\Book Broker\obj\Debug\netstandard2.0\refint\Book Broker.dll
+G:\intro to mobile apps\Book Broker\Book Broker\Book Broker\obj\Debug\netstandard2.0\Book Broker.pdb
+G:\intro to mobile apps\Book Broker\Book Broker\Book Broker\bin\Debug\netstandard2.0\Book Broker.deps.json
+G:\intro to mobile apps\Book Broker\Book Broker\Book Broker\bin\Debug\netstandard2.0\Book Broker.dll
+G:\intro to mobile apps\Book Broker\Book Broker\Book Broker\bin\Debug\netstandard2.0\Book Broker.pdb
+G:\intro to mobile apps\Book Broker\Book Broker\Book Broker\obj\Debug\netstandard2.0\XamlC.stamp
+G:\intro to mobile apps\Book Broker\Book Broker\Book Broker\obj\Debug\netstandard2.0\ref\Book Broker.dll

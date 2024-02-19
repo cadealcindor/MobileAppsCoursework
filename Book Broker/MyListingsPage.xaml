@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Book_Broker.MyListingsPage">
+    <ContentPage.Content>
+        <Grid BackgroundColor="Black">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            
+            <AbsoluteLayout BackgroundColor="{StaticResource Layer1}" Grid.Row="0" Grid.Column="0">
+                <Label x:Name="UsernameDisplay" Text="Guest" TextColor="{StaticResource MainText}" AbsoluteLayout.LayoutFlags="YProportional" AbsoluteLayout.LayoutBounds="0,0.5"/>
+                <Button x:Name="LogoutButton" Text="Logout" Clicked="LogoutButton_Clicked" TextColor="{StaticResource MainText}" BackgroundColor="{StaticResource Layer4}" AbsoluteLayout.LayoutFlags="PositionProportional" AbsoluteLayout.LayoutBounds="0.99,0.5,80,35"/>
+            </AbsoluteLayout>
+            
+            <StackLayout BackgroundColor="{StaticResource Layer2}" Grid.Row="1">
+                <Label Text="My Listings!" TextColor="{StaticResource MainText}"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+                <Entry x:Name="SearchBar" Placeholder="Search..." TextChanged="SearchBar_TextChanged" TextColor="{StaticResource MainText}" PlaceholderColor="{StaticResource SubText}"/>
+                <ListView x:Name="MyListingsListView" ItemSelected="MyListingsListView_ItemSelected">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <StackLayout BackgroundColor="{StaticResource Layer3}">
+                                    <Label x:Name="NameLabel" Text="{Binding Title}" TextColor="{StaticResource MainText}" />
+                                    <Label x:Name="PartLabel" Text="{Binding Author}" TextColor="{StaticResource SubText}"/>
+                                </StackLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+                <Button x:Name="AddButton" Text="Add" Clicked="AddButton_Clicked" TextColor="{StaticResource MainText}" BackgroundColor="{StaticResource Layer4}"/>
+                <Button x:Name="BackButton" Text="Back" Clicked="BackButton_Clicked" TextColor="{StaticResource MainText}" BackgroundColor="{StaticResource Layer4}"/>
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
